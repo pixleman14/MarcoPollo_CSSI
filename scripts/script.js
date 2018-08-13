@@ -7,21 +7,21 @@ document.getElementById('btn4').onclick = function() {clickFunc4()};
 document.getElementById('btn5').onclick = function() {clickFunc5()};
 function clickFunc1()
 {
-  window.location.href="index.html"
+  window.location.href="/"
 }
 function clickFunc2()
 {
-  window.location.href="index-2.html"
+  window.location.href="Recreation"
 }
 function clickFunc3()
 {
-  window.location.href="index-3.html"
+  window.location.href="Photo"
 }
 function clickFunc4()
 {
-  window.location.href="index-4.html"
+  window.location.href="Outlets"
 }
 function clickFunc5()
 {
-  window.location.href="index-5.html"
+  window.location.href="/Food"
 }
