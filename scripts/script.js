@@ -23,5 +23,5 @@ function clickFunc4()
 }
 function clickFunc5()
 {
-  window.location.href="/Food"
+  window.location.href="Food"
 }
