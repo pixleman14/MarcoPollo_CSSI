@@ -120,15 +120,15 @@ color: #D30C55;
 
 /*help insert images*/
 .bg1::after {
-  background-image: url(../images/Build4.jpg);
+  background-image: url('https://snag.gy/kL2Blh.jpg');
 }
 
 .bg2::after {
-  background-image: url(../images/another.jpg);
+  background-image: url('https://snag.gy/gSKu1k.jpg');
 }
 .bg3::after
 {
-  background-image: url('http://getwallpapers.com/wallpaper/full/e/6/0/430472.jpg');
+  background-image: url('https://snag.gy/xjcYfo.jpg');
 }
 .bg4::after
 {
