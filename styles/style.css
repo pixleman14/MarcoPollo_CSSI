@@ -82,6 +82,7 @@ color: #D30C55;
   position: relative;
   /* The height of the container. Must be set, but it doesn't really matter what the value is. */
   height: 100vh;
+  width: 100%;
 
   /* For text formatting. */
   display: flex;
@@ -133,7 +134,7 @@ color: #D30C55;
 body
 {
   margin: 0;
-  background-color: #404040;
+  background-color: #AF9075;
   overflow: hidden;
 }
 .header
@@ -187,4 +188,10 @@ body
 #b5{
   font-family: courier;
 
+}
+#test
+{
+  display: flex;
+  justify-content: flex-start;
+  padding: 1%;
 }
