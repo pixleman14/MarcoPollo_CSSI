@@ -1,6 +1,18 @@
 /* Tiny reset thingy */
 body,html{margin:0;padding:0;}
 
+h1:hover{
+color: #D30C55;
+}
+
+.maps{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: absolute;
+
+}
+
 #navbar
 {
   display: flex;
@@ -32,14 +44,27 @@ body,html{margin:0;padding:0;}
 {
   background-color: #686868;
 }
-#btn1
-{
-  background-color: #AD974F ;
-}
 #btn1:hover
 {
-  background-color: #ffcf40;
+  background-color: #35B7E9;
 }
+#btn2:hover
+{
+  background-color: #35B7E9;
+}
+#btn3:hover
+{
+  background-color: #35B7E9;
+}
+#btn4:hover
+{
+  background-color: #35B7E9;
+}
+#btn5:hover
+{
+  background-color: #35B7E9;
+}
+
 .wrapper {
   /* The height needs to be set to a fixed value for the effect to work.
    * 100vh is the full height of the viewport. */
@@ -93,9 +118,9 @@ body,html{margin:0;padding:0;}
   box-shadow:3px 7px 18px rgba(0, 0, 0, 0.5);
 }
 
-
+/*help insert images*/
 .bg1::after {
-  background-image: url('https://verdict4u.files.wordpress.com/2016/09/google-now-wallpaper-2.png');
+  background-image: url(../images/Build4.jpg);
 }
 
 .bg2::after {
