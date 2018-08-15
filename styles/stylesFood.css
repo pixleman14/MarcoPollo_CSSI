@@ -117,6 +117,7 @@ color: #D30C55;
 .static {
   background: #404040;
   box-shadow:3px 7px 18px rgba(0, 0, 0, 0.5);
+  z-index: 3;
 }
 
 /*help insert images*/
@@ -135,21 +136,7 @@ color: #D30C55;
 {
   background-image: url('https://i0.wp.com/www.lasvegas360.com/360/wp-content-lasvegas360/uploads/2011/08/lake_mead_us95_in-n-out.jpg');
 }
-#In .tooltiptext
-{
-  visibility: hidden;
-  width: 10vh;
-  background-color: black;
-  color: white;
-  text-align: center;
-  padding: 1%;
-  z-index: 3;
-}
 
-#In:hover .tooltiptext
-{
-  visibility:visible;
-}
 body
 {
   margin: 0;
@@ -258,4 +245,49 @@ body
     30% {width:355px;}
     80% {opacity:1;}
     100% {opacity:0;width:355px;}
+}
+#inDesc
+{
+  visibility: hidden;
+  z-index: 5;
+  height: 100vh;
+  width: 200vh;
+  background: rgba(0, 0, 0, 0.5);: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  padding: 3%;
+  padding-top: 20%;
+  margin-top: 5%;
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  opacity: 0;
+  transition: opacity .6s, visibility .6s
+}
+#In:hover #inDesc
+{
+  display: flex;
+  visibility: visible;
+  opacity: 1;
+}
+#inTitle
+{
+  position: absolute;
+  margin-top: 70vh;
+  margin-left: 100vh;
+}
+#In:hover #inTitle
+{
+  visibility: hidden;
+}
+::-webkit-scrollbar
+{
+  width: 5px;
+}
+::-webkit-scrollbar-thumb
+{
+  background: #538cc6;
+}
+::-webkit-scrollbar-thumb:hover
+{
+  background: #8cb3d9;
 }
