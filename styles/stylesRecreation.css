@@ -130,6 +130,10 @@ color: #D30C55;
 {
   background-image: url('http://getwallpapers.com/wallpaper/full/e/6/0/430472.jpg');
 }
+.bg4::after
+{
+  background-image: url('https://cdn.vox-cdn.com/thumbor/0OZYZPupjsW92qJv-KrxsrII6sU=/0x0:5912x3947/1200x800/filters:focal(3041x2072:3985x3016)/cdn.vox-cdn.com/uploads/chorus_image/image/58680737/highligtsbowlmor_2.0.jpg');
+}
 body
 {
   margin: 0;
