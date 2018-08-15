@@ -1,20 +1,23 @@
 /* Tiny reset thingy */
 body,html{margin:0;padding:0;}
 
-h1:hover{
-color: #D30C55;
-}
+h1:hover{color: #D30C55;}
+
+h1{color: #35B7E9;}
+
+#WhatMarco{display: flex;
+  flex-direction:column;
+  align-items: flex-start;
+  }
 
 .maps{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  position: absolute;
+  position: absolute;}
 
-}
 
-#navbar
-{
+#navbar{
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -25,9 +28,9 @@ color: #D30C55;
   overflow: hidden;
   z-index: 2;
   line-height: 0.5;
-}
-.btn
-{
+  font-size: 18px;}
+
+.btn{
   display: flex;
   flex-grow: 1;
   flex-shrink: 1;
@@ -38,32 +41,19 @@ color: #D30C55;
   background-color: #181818;
   color: white;
   font-family: 'Ubuntu', sans-serif;
-  cursor: pointer;
-}
-.btn:hover
-{
-  background-color: #686868;
-}
-#btn1:hover
-{
-  background-color: #35B7E9;
-}
-#btn2:hover
-{
-  background-color: #35B7E9;
-}
-#btn3:hover
-{
-  background-color: #35B7E9;
-}
-#btn4:hover
-{
-  background-color: #35B7E9;
-}
-#btn5:hover
-{
-  background-color: #35B7E9;
-}
+  cursor: pointer;}
+
+.btn:hover{background-color: #686868;}
+
+#btn1:hover{background-color: #35B7E9;}
+
+#btn2:hover{background-color: #35B7E9;}
+
+#btn3:hover{background-color: #35B7E9;}
+
+#btn4:hover{background-color: #35B7E9;}
+
+#btn5:hover{background-color: #35B7E9;}
 
 .wrapper {
   /* The height needs to be set to a fixed value for the effect to work.
@@ -116,82 +106,59 @@ color: #D30C55;
 /* The styling for the static div. */
 .static {
   background: #AF9075;
-  box-shadow:3px 7px 18px rgba(0, 0, 0, 0.5);
-}
+  box-shadow:3px 7px 18px rgba(0, 0, 0, 0.5);}
 
 /*help insert images*/
-.bg1::after {
-  background-image: url('https://i.pinimg.com/originals/a5/7e/b7/a57eb784e0a4d3a20f30a33606351a1b.jpg');
-}
+.bg1::after {background-image: url('http://www.santafehillssanmarcos.com/wp-content/uploads/2015/04/discover-csusm-day-open-house-810x421.png');}
 
-.bg2::after {
-  background-image: url(../images/another.jpg);
-}
-.bg3::after
-{
-  background-image: url('http://getwallpapers.com/wallpaper/full/e/6/0/430472.jpg');
-}
-body
-{
+.bg2::after {background-image: url('https://content.presspage.com/uploads/1093/1920_csusm014.jpg?10000');}
+
+.bg3::after{background-image: url('http://getwallpapers.com/wallpaper/full/e/6/0/430472.jpg');}
+
+body{
   margin: 0;
   background-color: #AF9075;
-  overflow: hidden;
-}
-.header
-{
+  overflow: hidden;}
+
+.header{
   display: flex;
   flex-direction: column;
   justify-content: center;
   font-family: 'Roboto', sans-serif;
   font-size: 28px;
   margin-bottom: 15%;
-  text-align: center;
-}
-#footer
-{
+  text-align: center;}
+
+
+#footer{
   display: flex;
   flex-direction: column;
-  height: 25%;
-}
-#btn1{
-  background-color: #000f4b;
+  height: 25%;}
 
-}
-#btn2{
-  background-color: #000f4b;
-}
-#btn3{
-  background-color: #000f4b;
-}
-#btn4{
-  background-color: #000f4b;
-}
-#btn5{
-  background-color: #000f4b;
-}
-#b1{
-  font-family: courier;
 
-}
-#b2{
-  font-family: courier;
+#btn1{background-color: #000f4b;}
 
-}
-#b3{
-  font-family: courier;
+#btn2{background-color: #000f4b;}
 
-}
-#b4{
-  font-family: courier;
+#btn3{background-color: #000f4b;}
 
-}
-#b5{
-  font-family: courier;
+#btn4{background-color: #000f4b;}
 
-}
-#test
-{
+#btn5{background-color: #000f4b;}
+
+
+#b1{font-family: courier;}
+
+#b2{font-family: courier;}
+
+#b3{font-family: courier;}
+
+#b4{font-family: courier;}
+
+#b5{font-family: courier;}
+
+
+#test{
   display: flex;
   justify-content: flex-start;
-  padding: 1%;
-}
+  padding: 1%;}
