@@ -25,7 +25,6 @@ color: #D30C55;
   overflow: hidden;
   z-index: 2;
   line-height: 0.5;
-  font-size: 18px;
 }
 .btn
 {
@@ -193,60 +192,9 @@ body
 }
 #b5{
   font-family: courier;
-}
-
-
-
-@import url('https://fonts.googleapis.com/css?family=Roboto:300');
-
-
-
-.ani {
-  display:inline-block;
-  overflow:hidden;
-  white-space:nowrap;
-}
-
-.ani:first-of-type {    /* For increasing performance
-                       ID/Class should've been used.
-                       For a small demo
-                       it's okaish for now */
-  animation: showup 15s;
-}
-
-.ani:last-of-type {
-  width:0px;
-  animation: reveal 15s infinite;
 
 }
-
-.ani:last-of-type span {
-  margin-left:-355px;
-  animation: slidein 30s;
-}
-
-@keyframes showup {
-    0% {opacity:0;}
-    20% {opacity:1;}
-    80% {opacity:1;}
-    100% {opacity:0;}
-}
-
-@keyframes slidein {
-    0% { margin-left:-800px; }
-    20% { margin-left:-800px; }
-    35% { margin-left:0px; }
-    100% { margin-left:0px; }
-}
-
-@keyframes reveal {
-    0% {opacity:0;width:0px;}
-    20% {opacity:1;width:0px;}
-    30% {width:355px;}
-    80% {opacity:1;}
-    100% {opacity:0;width:355px;}
-}
-#inDesc
+.inDesc
 {
   visibility: hidden;
   z-index: 5;
@@ -263,19 +211,22 @@ body
   opacity: 0;
   transition: opacity .6s, visibility .6s
 }
-#In:hover #inDesc
+.In:hover .inDesc
 {
   display: flex;
   visibility: visible;
   opacity: 1;
 }
-#inTitle
+.inTitle
 {
   position: absolute;
-  margin-top: 70vh;
-  margin-left: 100vh;
+  margin-top: 45vh;
+  margin-left: 92vh;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 32px;
 }
-#In:hover #inTitle
+.In:hover .inTitle
 {
   visibility: hidden;
 }
