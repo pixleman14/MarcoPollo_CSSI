@@ -23,8 +23,8 @@ color: #D30C55;
   width: 100%;
   overflow: hidden;
   z-index: 2;
-  line-height: 0.5;
-font-size: 19px;
+  line-height: 0.2;
+  font-size: 19px;
 }
 .btn
 {
@@ -42,6 +42,7 @@ font-size: 19px;
 }
 .btn:hover
 {
+  transition: background-color 0.3s ease-out;
   background-color: #686868;
 }
 #btn1:hover
