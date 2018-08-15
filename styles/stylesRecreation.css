@@ -120,15 +120,15 @@ color: #D30C55;
 
 /*help insert images*/
 .bg1::after {
-  background-image: url('https://static1.squarespace.com/static/58ccc8ca1b631bf52d1b52ff/58cf6f90bf629a7051db188e/5a148a358165f56a22f0ef91/1517345233313/BBB+-+Weekend+1-.jpeg?format=1500w');
+  background-image: url('https://image.rush49.com/rush49/images/vertical-hold-rush49-web11496862569website.jpg');
 }
 
 .bg2::after {
-  background-image: url(../images/another.jpg);
+  background-image: url('http://www.san-marcos.net/Home/ShowImage?id=2444&t=635894144687730000');
 }
 .bg3::after
 {
-  background-image: url('http://getwallpapers.com/wallpaper/full/e/6/0/430472.jpg');
+  background-image: url('http://4.bp.blogspot.com/-3zxSN03Nah4/Vjy4F2uupiI/AAAAAAAAALM/poOFpM1H4Zo/s1600/DaveNBusters-At-Night800.jpg');
 }
 .bg4::after
 {
