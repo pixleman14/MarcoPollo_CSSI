@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>App Engine Yelp API Call Example</title>
-    <link rel="stylesheet" href="styles/stylesFood.css">
+    <link rel="stylesheet" href="styles/stylesYelp.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
   </head>
@@ -44,10 +44,12 @@
     </code>
 -->
     {% for i in businesses %}
-    <div class = "">
+    <div class = "results">
+      <div class = "inResults">
       <h2>{{i['price']}} {{i['name']}}</h2>
       <h4>Rating: {{i['rating']}}</h4>
       <h4>Reviews: {{i['review_count']}}</h4>
+    </div>
     </div>
     {% endfor %}
   </body>
