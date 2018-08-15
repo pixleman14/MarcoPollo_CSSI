@@ -83,7 +83,6 @@ color: #D30C55;
   position: relative;
   /* The height of the container. Must be set, but it doesn't really matter what the value is. */
   height: 100vh;
-  z-index: 2;
 
   /* For text formatting. */
   display: flex;
@@ -118,11 +117,12 @@ color: #D30C55;
 .static {
   background: #404040;
   box-shadow:3px 7px 18px rgba(0, 0, 0, 0.5);
+  z-index: 3;
 }
 
 /*help insert images*/
 .bg1::after {
-  background-image: url('https://aaronchang.com/wp-content/uploads/2016/08/3343-MoonlightBeachSunset_5555_V6_60x40_M.jpg');
+  background-image: url('https://i.pinimg.com/originals/10/38/ea/1038eae15cb3d554728a10270d5dfb03.jpg');
 }
 
 .bg2::after {

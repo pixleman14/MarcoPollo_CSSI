@@ -89,7 +89,6 @@ color: #D30C55;
   align-items: center;
   justify-content: center;
   color: white;
-  z-index: 2;
   text-shadow: 0 0 5px #000;
 }
 
@@ -118,6 +117,7 @@ color: #D30C55;
 .static {
   background: #404040;
   box-shadow:3px 7px 18px rgba(0, 0, 0, 0.5);
+  z-index: 3;
 }
 
 /*help insert images*/
@@ -229,7 +229,7 @@ body
 {
   position: absolute;
   margin-top: 45vh;
-  margin-left: 92vh;
+  margin-left: 90vh;
   font-family: Helvetica, sans-serif;
   font-weight: bold;
   font-size: 32px;
