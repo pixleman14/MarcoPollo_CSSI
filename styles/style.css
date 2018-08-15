@@ -3,7 +3,7 @@ body,html{margin:0;padding:0;}
 
 h1:hover{color: #D30C55;}
 
-h1{color: #35B7E9;}
+h1{color: white;}
 
 #WhatMarco{display: flex;
   flex-direction:column;
