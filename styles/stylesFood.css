@@ -230,6 +230,7 @@ body
 .ani:last-of-type {
   width:0px;
   animation: reveal 15s infinite;
+
 }
 
 .ani:last-of-type span {
