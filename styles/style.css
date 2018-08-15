@@ -17,7 +17,8 @@ h1{color: white;}
   position: absolute;}
 
 
-#navbar{
+#navbar
+{
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -28,7 +29,8 @@ h1{color: white;}
   overflow: hidden;
   z-index: 2;
   line-height: 0.5;
-  font-size: 18px;}
+  font-weight: bold;
+}
 
 .btn{
   display: flex;
