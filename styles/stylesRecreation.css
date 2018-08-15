@@ -24,6 +24,7 @@ color: #D30C55;
   overflow: hidden;
   z-index: 2;
   line-height: 0.5;
+  font-size: 18px;
 }
 .btn
 {
@@ -119,7 +120,7 @@ color: #D30C55;
 
 /*help insert images*/
 .bg1::after {
-  background-image: url(../images/Build4.jpg);
+  background-image: url('https://static1.squarespace.com/static/58ccc8ca1b631bf52d1b52ff/58cf6f90bf629a7051db188e/5a148a358165f56a22f0ef91/1517345233313/BBB+-+Weekend+1-.jpeg?format=1500w');
 }
 
 .bg2::after {

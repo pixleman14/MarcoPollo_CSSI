@@ -24,6 +24,7 @@ color: #D30C55;
   overflow: hidden;
   z-index: 2;
   line-height: 0.5;
+  font-size: 18px;
 }
 .btn
 {
@@ -119,7 +120,7 @@ color: #D30C55;
 
 /*help insert images*/
 .bg1::after {
-  background-image: url(../images/Build4.jpg);
+  background-image: url('https://aaronchang.com/wp-content/uploads/2016/08/3343-MoonlightBeachSunset_5555_V6_60x40_M.jpg');
 }
 
 .bg2::after {
