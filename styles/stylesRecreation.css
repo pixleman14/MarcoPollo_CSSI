@@ -24,7 +24,7 @@ color: #D30C55;
   overflow: hidden;
   z-index: 2;
   line-height: 0.5;
-  font-size: 18px;
+  font-weight: bold;
 }
 .btn
 {
@@ -88,6 +88,7 @@ color: #D30C55;
   align-items: center;
   justify-content: center;
   color: white;
+  z-index: 2;
   text-shadow: 0 0 5px #000;
 }
 
@@ -199,4 +200,52 @@ body
 #b5{
   font-family: courier;
 
+}
+.inDesc
+{
+  visibility: hidden;
+  z-index: 5;
+  height: 100vh;
+  width: 200vh;
+  background: rgba(0, 0, 0, 0.5);: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  padding: 3%;
+  padding-top: 20%;
+  margin-top: 5%;
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  opacity: 0;
+  transition: opacity .6s, visibility .6s
+}
+.In:hover .inDesc
+{
+  display: flex;
+  visibility: visible;
+  opacity: 1;
+}
+.inTitle
+{
+  position: absolute;
+  margin-top: 45vh;
+  margin-left: 92vh;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+}
+.In:hover .inTitle
+{
+  visibility: hidden;
+}
+::-webkit-scrollbar
+{
+  width: 5px;
+}
+::-webkit-scrollbar-thumb
+{
+  background: #538cc6;
+}
+::-webkit-scrollbar-thumb:hover
+{
+  background: #8cb3d9;
 }
