@@ -23,8 +23,8 @@ color: #D30C55;
   width: 100%;
   overflow: hidden;
   z-index: 2;
-  line-height: 0.5;
-font-size: 19px;
+  line-height: 0.2;
+  font-size: 19px;
 }
 .btn
 {
@@ -42,6 +42,7 @@ font-size: 19px;
 }
 .btn:hover
 {
+  transition: background-color 0.3s ease-out;
   background-color: #686868;
 }
 #btn1:hover
@@ -88,7 +89,6 @@ font-size: 19px;
   align-items: center;
   justify-content: center;
   color: white;
-  z-index: 2;
   text-shadow: 0 0 5px #000;
 }
 
@@ -117,6 +117,7 @@ font-size: 19px;
 .static {
   background: #404040;
   box-shadow:3px 7px 18px rgba(0, 0, 0, 0.5);
+  z-index: 3;
 }
 
 /*help insert images*/
@@ -228,7 +229,7 @@ body
 {
   position: absolute;
   margin-top: 45vh;
-  margin-left: 92vh;
+  margin-left: 90vh;
   font-family: Helvetica, sans-serif;
   font-weight: bold;
   font-size: 32px;

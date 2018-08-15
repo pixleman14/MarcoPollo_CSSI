@@ -23,7 +23,7 @@ color: #D30C55;
   width: 100%;
   overflow: hidden;
   z-index: 2;
-  line-height: 0.5;
+  line-height: 0.2;
   font-size: 19px;
 }
 .btn
@@ -39,6 +39,7 @@ color: #D30C55;
   color: white;
   font-family: 'Ubuntu', sans-serif;
   cursor: pointer;
+  transition: background-color 0.3s ease-out;
 }
 .btn:hover
 {
@@ -82,7 +83,6 @@ color: #D30C55;
   position: relative;
   /* The height of the container. Must be set, but it doesn't really matter what the value is. */
   height: 100vh;
-  z-index: 2;
 
   /* For text formatting. */
   display: flex;
@@ -117,15 +117,16 @@ color: #D30C55;
 .static {
   background: #404040;
   box-shadow:3px 7px 18px rgba(0, 0, 0, 0.5);
+  z-index: 3;
 }
 
 /*help insert images*/
 .bg1::after {
-  background-image: url(../images/Build4.jpg);
+  background-image: url('https://www.newmarkmerrill.com/wp-content/uploads/2017/12/JDZ3657_58_59_60_61_tonemapped.jpg');
 }
 
 .bg2::after {
-  background-image: url(../images/another.jpg);
+  background-image: url('https://snag.gy/MhDTpS.jpg');
 }
 .bg3::after
 {
