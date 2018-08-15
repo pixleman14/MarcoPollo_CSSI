@@ -141,7 +141,23 @@ font-size: 19px;
 }
 .bg6::after
 {
-  background-image: url('http://www.san-marcos.net/Home/ShowImage?id=6184&t=636111935388770000');
+  background-image: url('https://www.pacificplayinc.com/wp-content/uploads/2014/06/Connors-Park-1.jpg');
+}
+.bg7::after
+{
+  background-image: url('https://www.slashfilm.com/wp/wp-content/images/regal-movie-theaters.jpg');
+}
+.bg8::after
+{
+  background-image: url('http://www.san-marcos.net/Home/ShowImage?id=6304&t=636154919654570000');
+}
+.bg9::after
+{
+  background-image: url('https://media.kxan.com/nxs-kxantv-media-us-east-1/photo/2015/01/29/img_0319_37206195_ver1.0_640_360.jpg');
+}
+.bg10::after
+{
+  background-image: url('https://pbs.twimg.com/media/DiQQYPzUEAABDnE.jpg');
 }
 body
 {
@@ -227,8 +243,8 @@ body
 .inTitle
 {
   position: absolute;
-  margin-top: 45vh;
-  margin-left: 92vh;
+  margin-top: 50vh;
+  margin-left: 90vh;
   font-family: Helvetica, sans-serif;
   font-weight: bold;
   font-size: 32px;
