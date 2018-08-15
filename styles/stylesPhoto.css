@@ -124,11 +124,20 @@ color: #D30C55;
 }
 
 .bg2::after {
-  background-image: url(../images/another.jpg);
+  background-image: url('http://www.san-marcos.net/Home/ShowImage?id=3629&t=635905590420230000');
 }
 .bg3::after
 {
-  background-image: url('http://getwallpapers.com/wallpaper/full/e/6/0/430472.jpg');
+  background-image: url('https://i.ytimg.com/vi/CqW51tc2ul0/maxresdefault.jpg');
+}
+
+.bg4::after
+{
+  background-image: url('http://www.trbimg.com/img-57c5a679/turbine/sdut-a-new-park-in-san-marcos-2010feb26');
+}
+.bg5::after
+{
+  background-image: url('http://www.trbimg.com/img-57d04b67/turbine/sdut-decoy-dockside-restaurant-opens-lake-san-marcos-2016sep02');
 }
 body
 {

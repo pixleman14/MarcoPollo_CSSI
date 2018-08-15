@@ -130,6 +130,10 @@ color: #D30C55;
 {
   background-image: url('http://getwallpapers.com/wallpaper/full/e/6/0/430472.jpg');
 }
+.bg4::after
+{
+  background-image: url('http://getwallpapers.com/wallpaper/full/e/6/0/430472.jpg');
+}
 body
 {
   margin: 0;
