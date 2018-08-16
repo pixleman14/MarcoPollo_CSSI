@@ -138,6 +138,31 @@ color: #D30C55;
   background-image: url('https://i0.wp.com/www.lasvegas360.com/360/wp-content-lasvegas360/uploads/2011/08/lake_mead_us95_in-n-out.jpg');
 }
 
+.bg5::after {
+  background-image: url('http://customer.djc.com/stories/images/20160219/OSF_B_10_big.jpg');
+}
+
+.bg6::after {
+  background-image: url('https://www.gannett-cdn.com/-mm-/01799c7b7a4c42980f157833b30cc61af66f5307/c=0-311-3249-2147/local/-/media/2017/07/10/WIGroup/Appleton/636353007361891956-APC-MrTaco-071017-dtd4.JPG?width=3200&height=1680&fit=crop');
+}
+.bg7::after
+{
+  background-image: url('http://www.ahisushihibachi.com/Ahisushi%20Front_1.JPG');
+}
+.bg8::after
+{
+  background-image: url(../images/2017-04-21.JPG);
+}
+
+.bg9::after
+{
+  background-image: url('https://wydaily.com/wp-content/uploads/2016/03/Jersey-Mikes.jpg');
+}
+.bg10::after
+{
+  background-image: url(../images/Thai.JPG);
+}
+
 body
 {
   margin: 0;
@@ -213,12 +238,7 @@ body
   opacity: 0;
   transition: opacity .6s, visibility .6s
 }
-.In:hover .inDesc
-{
-  display: flex;
-  visibility: visible;
-  opacity: 1;
-}
+
 .inTitle
 {
   position: absolute;
@@ -228,10 +248,19 @@ body
   font-weight: bold;
   font-size: 32px;
 }
+
+.In:hover .inDesc
+{
+  display: flex;
+  visibility: visible;
+  opacity: 1;
+}
+
 .In:hover .inTitle
 {
   visibility: hidden;
 }
+
 ::-webkit-scrollbar
 {
   width: 5px;
@@ -243,9 +272,4 @@ body
 ::-webkit-scrollbar-thumb:hover
 {
   background: #8cb3d9;
-}
-
-#box{
-  background-color: blue;
-  z-index: 4; position:relative;
 }
