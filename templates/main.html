@@ -27,8 +27,9 @@
         <p id="b5">Food</p>
       </div>
     </div>
-
-  <body>
+    <body>
+<div class="foreground">
+  <div class="search">
     <p><b>Source code is at <a href="https://github.com/mikehelmick/cssi-yelp">https://github.com/mikehelmick/cssi-yelp</a></b></p>
     <form method="get" action="/Mainpage">
       <p><input type="text" name="q"
@@ -38,13 +39,19 @@
          <a href="/popular">Popular Searches</a>
       </p>
     </form>
+  </div>
 <!---
     <code>
     {{content}}
     </code>
 -->
-<section>
+<div class="results">
     {% for i in businesses %}
+<<<<<<< HEAD
+    <div class="price">
+      <h2 class="price">{{i['price']}} {{i['name']}}</h2>
+    </div>
+=======
     <div>
       <h2>Name: {{i['name']}}</h2>
       <h4>Price: {{i['price']}}</h4>
@@ -55,12 +62,16 @@
       <div class = "inResults">
       <h2>Name: {{i['name']}}</h2>
       <h4>Price:{{i['price']}}</h4>
+<<<<<<< HEAD
+=======
+>>>>>>> 4a539e3bee21aa40d3c7dd61067b7eceff74a254
+>>>>>>> e74e8056040f0e9fb211854b164ec31daeb34223
+>>>>>>> c3b68a942c94e1ada661079562869190957cd122
       <h4>Rating: {{i['rating']}}</h4>
       <h4>Reviews: {{i['review_count']}}</h4>
-    </div>
-    </div>
     {% endfor %}
-  </section>
+</div>
+</div>
   </body>
 </html>
 <script type="text/javascript" src="scripts/script.js"></script>

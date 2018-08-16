@@ -31,9 +31,54 @@
 {
   background-color: #2f3f86;
 }
-.results
+.foreground
 {
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  box-shadow:3px 7px 18px rgba(0, 0, 0, 0.5);
+  margin-top: 8vh;
+  margin-left: 8%;
+  margin-right: 8%;
+  background-color: white;
+}
+::-webkit-scrollbar
+{
+  width: 5px;
+}
+::-webkit-scrollbar-thumb
+{
+  background: #538cc6;
+}
+::-webkit-scrollbar-thumb:hover
+{
+  background: #8cb3d9;
+}
+.results
+{
+  padding: 1%;
+  margin-top: 10vh;
+  margin-right: 30%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: Helvetica, sans-serif;
+}
+.search
+{
+  padding: 1%;
+  display: flex;
+  justify-content: center;
+  font-family: Helvetica, sans-serif;
+}
+body
+{
+  margin: 0;
+  background-image: url('https://s3-media3.fl.yelpcdn.com/assets/srv0/seo_metadata/f9149736ad8d/assets/img/logos/yelp_og_image.png');
+  position: absolute;
+  background-repeat: repeat;
+  background-size: cover;
+}
+.price
+{
+  color: green;
 }
