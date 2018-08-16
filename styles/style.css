@@ -136,3 +136,14 @@ body{
   display: flex;
   justify-content: flex-start;
   padding: 1%;}
+
+.aboutDesc
+{
+  display: flex;
+  justify-content: center;
+
+}
+.entire
+{
+  padding: 2%;
+}
