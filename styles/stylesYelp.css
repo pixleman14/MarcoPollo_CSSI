@@ -21,7 +21,7 @@
   /*border-style: solid;
   border-width: 5px;*/
   justify-content: center;
-  background-color: #181818;
+  background-color: #000f4b;
   color: white;
   font-family: 'Ubuntu', sans-serif;
   cursor: pointer;
@@ -29,32 +29,11 @@
 }
 .btn:hover
 {
-  background-color: #686868;
-}
-#btn1:hover
-{
-  background-color: #35B7E9;
-}
-#btn2:hover
-{
-  background-color: #35B7E9;
-}
-#btn3:hover
-{
-  background-color: #35B7E9;
-}
-#btn4:hover
-{
-  background-color: #35B7E9;
-}
-#btn5:hover
-{
-  background-color: #35B7E9;
+  background-color: #2f3f86;
 }
 .results
 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
 }
