@@ -101,7 +101,14 @@ class PopularPage(webapp2.RequestHandler):
         self.response.write(template.render(variables))
 
 
+# class Business:
+#     name = ""
+#     rating = 0.0
+#     review_count = 0
+#     price = ""
+
 class MainPage(webapp2.RequestHandler):
+
     def get(self):
         search_term = self.request.get('q')
         if search_term:
@@ -129,11 +136,54 @@ class MainPage(webapp2.RequestHandler):
         # Add your own API key
         request = urllib2.Request(api_url, headers={"Authorization" : "Bearer mcj0Yvg7eMof_REdJ65A5c68tugGNvj3DSTDmqwZn3bCuimqbCQr9gr_AAXu2pIqMhs7sDGipGLpFAoKaPIQTM5VH4kV3tep5JIrqvbta1QRmtPezifGfTiizAhzW3Yx"})
         response = urllib2.urlopen(request).read()
+
         content = json.loads(response)
+        # logging.info(content)
+        # businesses = content['businesses']
+        # logging.info("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+        # logging.info(businesses[0])
+        # business_name = businesses[0]['name']
+        # logging.info(business_name)
+        #
+        # logging.info("SHOULD BE SAME THING")
+        # logging.info(content['businesses'][0]['name'])
+        logging.info(len(content))
+        i = 0
+
+        # changed business_name from string to array, and appending
+
+        business_array = []
+        # logging.info(business_array)
+        # logging.info(str(test))
+
+        while i < len(content['businesses']):
+            # business = Business()
+            business = {
+            'name': content['businesses'][i]['name'],
+            'rating': content['businesses'][i]['rating'],
+            'review_count': content['businesses'][i]['review_count'],
+            'price': content['businesses'][i]['price']
+            }
+            # business.name = content['businesses'][i]['name']
+            logging.info(business['name'])
+            # business.rating = content['businesses'][i]['rating']
+            # logging.info(business.rating)
+            # business.review_count = content['businesses'][i]['review_count']
+            # logging.info(business.review_count)
+            # business.price = content['businesses'][i]['price']
+            # logging.info(business.price)
+            # business_array.append(business)
+            business_array.append(business)
+            i += 1
+            logging.info("********")
+
+        logging.info("===========================================================")
+        logging.info(business_array)
 
         template = jinja_environment.get_template('main.html')
         variables = {'content': content,
-                     'q': search_term}
+                     'q': search_term,
+                     'businesses': business_array}
         self.response.write(template.render(variables))
 
 

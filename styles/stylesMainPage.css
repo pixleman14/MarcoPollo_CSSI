@@ -23,7 +23,7 @@ color: #D30C55;
   width: 100%;
   overflow: hidden;
   z-index: 2;
-  line-height: 0.2;
+  line-height: 0.5;
   font-size: 19px;
 }
 .btn
@@ -42,7 +42,6 @@ color: #D30C55;
 }
 .btn:hover
 {
-  transition: background-color 0.3s ease-out;
   background-color: #686868;
 }
 #btn1:hover
@@ -83,6 +82,7 @@ color: #D30C55;
   position: relative;
   /* The height of the container. Must be set, but it doesn't really matter what the value is. */
   height: 100vh;
+  z-index: 2;
 
   /* For text formatting. */
   display: flex;
@@ -117,48 +117,23 @@ color: #D30C55;
 .static {
   background: #404040;
   box-shadow:3px 7px 18px rgba(0, 0, 0, 0.5);
-  z-index: 3;
 }
 
 /*help insert images*/
 .bg1::after {
-  background-image: url('https://image.rush49.com/rush49/images/vertical-hold-rush49-web11496862569website.jpg');
+  background-image: url(../images/Build4.jpg);
 }
 
 .bg2::after {
-  background-image: url('http://www.san-marcos.net/Home/ShowImage?id=2444&t=635894144687730000');
+  background-image: url(../images/another.jpg);
 }
 .bg3::after
 {
-  background-image: url('http://4.bp.blogspot.com/-3zxSN03Nah4/Vjy4F2uupiI/AAAAAAAAALM/poOFpM1H4Zo/s1600/DaveNBusters-At-Night800.jpg');
+  background-image: url('http://getwallpapers.com/wallpaper/full/e/6/0/430472.jpg');
 }
 .bg4::after
 {
-  background-image: url('https://cdn.vox-cdn.com/thumbor/0OZYZPupjsW92qJv-KrxsrII6sU=/0x0:5912x3947/1200x800/filters:focal(3041x2072:3985x3016)/cdn.vox-cdn.com/uploads/chorus_image/image/58680737/highligtsbowlmor_2.0.jpg');
-}
-.bg5::after
-{
-  background-image: url('https://i2.wp.com/allthingsgirlscouts.com/wp-content/uploads/2017/02/Sky-Zone-Daytona.jpg?resize=640%2C333');
-}
-.bg6::after
-{
-  background-image: url('https://www.pacificplayinc.com/wp-content/uploads/2014/06/Connors-Park-1.jpg');
-}
-.bg7::after
-{
-  background-image: url('https://www.slashfilm.com/wp/wp-content/images/regal-movie-theaters.jpg');
-}
-.bg8::after
-{
-  background-image: url('http://www.san-marcos.net/Home/ShowImage?id=6304&t=636154919654570000');
-}
-.bg9::after
-{
-  background-image: url('https://media.kxan.com/nxs-kxantv-media-us-east-1/photo/2015/01/29/img_0319_37206195_ver1.0_640_360.jpg');
-}
-.bg10::after
-{
-  background-image: url('https://pbs.twimg.com/media/DiQQYPzUEAABDnE.jpg');
+  background-image: url('http://getwallpapers.com/wallpaper/full/e/6/0/430472.jpg');
 }
 body
 {
@@ -244,8 +219,8 @@ body
 .inTitle
 {
   position: absolute;
-  margin-top: 50vh;
-  margin-left: 90vh;
+  margin-top: 45vh;
+  margin-left: 92vh;
   font-family: Helvetica, sans-serif;
   font-weight: bold;
   font-size: 32px;
