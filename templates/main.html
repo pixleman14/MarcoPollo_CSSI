@@ -43,12 +43,15 @@
     {{content}}
     </code>
 -->
+<section>
     {% for i in businesses %}
-    <div class = "">
-      <h2>{{i['price']}} {{i['name']}}</h2>
+    <div>
+      <h2>Name: {{i['name']}}</h2>
+      <h4>Price: {{i['price']}}</h4>
       <h4>Rating: {{i['rating']}}</h4>
       <h4>Reviews: {{i['review_count']}}</h4>
     </div>
     {% endfor %}
+  </section>
   </body>
 </html>
