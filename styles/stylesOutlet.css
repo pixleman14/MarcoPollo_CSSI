@@ -122,17 +122,12 @@ color: #D30C55;
 
 /*help insert images*/
 .bg1::after {
-  background-image: url('https://snag.gy/ilGBaO.jpg');
+  background-image: url(../images/grandplaza.jpg);
 }
 
 .bg2::after
 {
-  background-image: url('https://www.newmarkmerrill.com/wp-content/uploads/2017/12/JDZ3657_58_59_60_61_tonemapped.jpg');
-}
-
-.bg2::after
-{
-  background-image: url('https://snag.gy/MhDTpS.jpg');
+  background-image: url(../images/escoPromenade.jpg);
 }
 .bg3::after
 {
