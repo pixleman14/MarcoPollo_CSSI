@@ -35,34 +35,12 @@ color: #D30C55;
   /*border-style: solid;
   border-width: 5px;*/
   justify-content: center;
-  background-color: #181818;
+  background-color: #000f4b;
   color: white;
   font-family: 'Ubuntu', sans-serif;
   cursor: pointer;
 }
-.btn:hover
-{
-  background-color: #686868;
-}
-#btn1:hover
-{
-  background-color: #35B7E9;
-}
-#btn2:hover
-{
-  background-color: #35B7E9;
-}
-#btn3:hover
-{
-  background-color: #35B7E9;
-}
-#btn4:hover
-{
-  background-color: #35B7E9;
-}
-#btn5:hover
-{
-  background-color: #35B7E9;
+.btn:hover{background-color: #2f3f86;
 }
 
 .wrapper {
@@ -85,13 +63,31 @@ color: #D30C55;
   z-index: 2;
 
   /* For text formatting. */
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
   color: white;
   text-shadow: 0 0 5px #000;
+  text-align: center;
 }
-
+.text{
+text-align: center;
+margin-top: 20%;
+font-size: 75px;
+font-family: Helvetica
+}
+.text2{
+  text-align: center;
+  margin-top: 18%;
+  font-size: 55px;
+  font-family: Helvetica
+}
+.text3{
+  text-align: center;
+  margin-top: 12%;
+  font-size: 35px;
+  font-family: Helvetica
+}
 .parallax::after {
   /* Display and position the pseudo-element */
   content: " ";
@@ -115,8 +111,12 @@ color: #D30C55;
 
 /* The styling for the static div. */
 .static {
+
+
   background: #404040;
   box-shadow:3px 7px 18px rgba(0, 0, 0, 0.5);
+
+
 }
 
 /*help insert images*/
@@ -134,6 +134,10 @@ color: #D30C55;
 .bg4::after
 {
   background-image: url('http://getwallpapers.com/wallpaper/full/e/6/0/430472.jpg');
+}
+.bg5::after
+{
+  background-color: #000f4b;
 }
 body
 {
@@ -157,46 +161,10 @@ body
   flex-direction: column;
   height: 25%;
 }
-#btn1{
-  background-color: #000f4b;
-
-}
-#btn2{
-  background-color: #000f4b;
-}
-#btn3{
-  background-color: #000f4b;
-}
-#btn4{
-  background-color: #000f4b;
-}
-#btn5{
-  background-color: #000f4b;
-}
-#b1{
-  font-family: courier;
-
-}
-#b2{
-  font-family: courier;
-
-}
-#b3{
-  font-family: courier;
-
-}
-#b4{
-  font-family: courier;
-
-}
-#b5{
-  font-family: courier;
-
-}
 .inDesc
 {
   visibility: hidden;
-  z-index: 5;
+  z-index: 5
   height: 100vh;
   width: 200vh;
   background: rgba(0, 0, 0, 0.5);: rgba(0, 0, 0, 0.5);
@@ -216,15 +184,20 @@ body
   visibility: visible;
   opacity: 1;
 }
+/* * */
 .inTitle
 {
-  position: absolute;
+
+  text-align: center;
+  /* position: center; */
   margin-top: 45vh;
-  margin-left: 92vh;
+  /* margin-left: 92vh; */
   font-family: Helvetica, sans-serif;
   font-weight: bold;
   font-size: 32px;
 }
+/* * */
+
 .In:hover .inTitle
 {
   visibility: hidden;
