@@ -22,7 +22,7 @@ h1{color: white;}
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color: #181818;
+  background-color: #000f4b;
   position: fixed;
   top: 0;
   width: 100%;
@@ -41,24 +41,15 @@ h1{color: white;}
   /*border-style: solid;
   border-width: 5px;*/
   justify-content: center;
-  background-color: #181818;
+  background-color: #000f4b;
   color: white;
   font-family: 'Ubuntu', sans-serif;
   cursor: pointer;
   transition: background-color 0.3s ease-out;
 }
 
-.btn:hover{background-color: #686868;}
+.btn:hover{background-color: #2f3f86;}
 
-#btn1:hover{background-color: #35B7E9;}
-
-#btn2:hover{background-color: #35B7E9;}
-
-#btn3:hover{background-color: #35B7E9;}
-
-#btn4:hover{background-color: #35B7E9;}
-
-#btn5:hover{background-color: #35B7E9;}
 
 .wrapper {
   /* The height needs to be set to a fixed value for the effect to work.
@@ -139,28 +130,6 @@ body{
   display: flex;
   flex-direction: column;
   height: 25%;}
-
-
-#btn1{background-color: #000f4b;}
-
-#btn2{background-color: #000f4b;}
-
-#btn3{background-color: #000f4b;}
-
-#btn4{background-color: #000f4b;}
-
-#btn5{background-color: #000f4b;}
-
-
-#b1{font-family: courier;}
-
-#b2{font-family: courier;}
-
-#b3{font-family: courier;}
-
-#b4{font-family: courier;}
-
-#b5{font-family: courier;}
 
 
 #test{
