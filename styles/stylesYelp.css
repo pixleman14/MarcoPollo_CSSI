@@ -37,8 +37,8 @@
   justify-content: center;
   box-shadow:3px 7px 18px rgba(0, 0, 0, 0.5);
   margin-top: 8vh;
-  margin-left: 8%;
-  margin-right: 8%;
+  margin-left: 3%;
+  margin-right: 3%;
   background-color: white;
 }
 ::-webkit-scrollbar
