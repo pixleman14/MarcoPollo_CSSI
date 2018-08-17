@@ -147,3 +147,14 @@ body{
 {
   padding: 2%;
 }
+#vertical
+{
+  display: flex;
+  justify-content: center;
+}
+.descFormat
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
