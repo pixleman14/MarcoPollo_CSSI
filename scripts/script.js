@@ -5,6 +5,7 @@ document.getElementById('btn2').onclick = function() {clickFunc2()};
 document.getElementById('btn3').onclick = function() {clickFunc3()};
 document.getElementById('btn4').onclick = function() {clickFunc4()};
 document.getElementById('btn5').onclick = function() {clickFunc5()};
+document.getElementById('btn6').onclick = function() {clickFunc6()};
 function clickFunc1()
 {
   window.location.href="/"
@@ -24,4 +25,8 @@ function clickFunc4()
 function clickFunc5()
 {
   window.location.href="Food"
+}
+function clickFunc6()
+{
+  window.location.href="Mainpage"
 }

@@ -212,3 +212,8 @@ body
 {
   background: #8cb3d9;
 }
+.inDesc
+{
+  display: flex;
+  flex-direction: column;
+}
