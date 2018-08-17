@@ -26,8 +26,13 @@
       <div class="btn" id="btn5">
         <p id="b5">Food</p>
       </div>
+<<<<<<< HEAD
       <div class="btn">
         <p>Food</p>
+=======
+      <div class="btn" id="btn6">
+        <p>Yelp</p>
+>>>>>>> d601089106ac1a35b151aead99c3989d5be2acb8
       </div>
     </div>
     <body>
@@ -48,30 +53,22 @@
     {{content}}
     </code>
 -->
-<div class="results">
-    {% for i in businesses %}
-<<<<<<< HEAD
-    <div class="price">
-      <h2 class="price">{{i['price']}} {{i['name']}}</h2>
+
+    <div class = "results">
+      {% for i in businesses %}
+      <div class = "inResults">
+    <div class="name">
+      <h2>Name: {{i['name']}}</h2>
     </div>
-=======
-    <div>
-      <h2>Name: {{i['name']}}</h2>
-      <h4>Price: {{i['price']}}</h4>
-    <div class = "results">
-      <div class = "inResults">
-      <h2>{{i['price']}} {{i['name']}}</h2>
-    <div class = "results">
-      <div class = "inResults">
-      <h2>Name: {{i['name']}}</h2>
+    <div class="price">
       <h4>Price:{{i['price']}}</h4>
-<<<<<<< HEAD
-=======
->>>>>>> 4a539e3bee21aa40d3c7dd61067b7eceff74a254
->>>>>>> e74e8056040f0e9fb211854b164ec31daeb34223
->>>>>>> c3b68a942c94e1ada661079562869190957cd122
+    </div>
+    <div class="rating">
       <h4>Rating: {{i['rating']}}</h4>
+    </div>
+    <div class="review">
       <h4>Reviews: {{i['review_count']}}</h4>
+    </div>
     {% endfor %}
 </div>
 </div>

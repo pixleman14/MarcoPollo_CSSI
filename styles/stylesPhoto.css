@@ -101,24 +101,24 @@ color: #D30C55;
 
 /*help insert images*/
 .bg1::after {
-  background-image: url('https://i.pinimg.com/originals/10/38/ea/1038eae15cb3d554728a10270d5dfb03.jpg');
+  background-image: url(../images/moonlight-state-beach.jpg);
 }
 
 .bg2::after {
-  background-image: url('http://www.san-marcos.net/Home/ShowImage?id=3629&t=635905590420230000');
+  background-image: url(../images/double-peak-park.jpg);
 }
 .bg3::after
 {
-  background-image: url('https://i.ytimg.com/vi/CqW51tc2ul0/maxresdefault.jpg');
+  background-image: url(../images/discovery-lake.jpg);
 }
 
 .bg4::after
 {
-  background-image: url('http://www.trbimg.com/img-57c5a679/turbine/sdut-a-new-park-in-san-marcos-2010feb26');
+  background-image: url(../images/sunset-park.jpg);
 }
 .bg5::after
 {
-  background-image: url('http://www.trbimg.com/img-57d04b67/turbine/sdut-decoy-dockside-restaurant-opens-lake-san-marcos-2016sep02');
+  background-image: url(../images/lake-san-marcos.jpg);
 }
 body
 {
