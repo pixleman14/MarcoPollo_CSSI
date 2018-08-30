@@ -177,7 +177,7 @@ body
   padding-top: 20%;
   margin-top: 5%;
   font-family: Helvetica, sans-serif;
-  font-size: 25px;
+  font-size: 30px;
   opacity: 0;
   transition: opacity .6s, visibility .6s
 }
@@ -190,11 +190,11 @@ body
 .inTitle
 {
   position: absolute;
-  margin-top: 50vh;
-  margin-left: 90vh;
+  margin-top: 45vh;
+  margin-left: 92vh;
   font-family: Helvetica, sans-serif;
   font-weight: bold;
-  font-size: 55px;
+  font-size: 32px;
 }
 .In:hover .inTitle
 {
@@ -212,8 +212,8 @@ body
 {
   background: #8cb3d9;
 }
-.inDesc
+/*.inDesc
 {
   display: flex;
   flex-direction: column;
-}
+}*/
